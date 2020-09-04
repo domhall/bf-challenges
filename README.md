@@ -2,4 +2,4 @@
 
 `cd src`
 
-`python3 multiply_exercise.py "+++++++++++++++."`
+`python3 03multiply.py "+++++++++++++++."`
