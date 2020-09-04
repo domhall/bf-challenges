@@ -3,7 +3,7 @@ import basetest
 import random
 
 def has_correct_output():
-    print('Checking output...')
+    print('Checking output for 5*4...')
     if basetest.simple_test(list(sys.argv[1]), [5, 4], [20]):
         print('Correct output :)')
     else:
@@ -27,7 +27,7 @@ def passes_random_inputs():
     print('')
 
 def has_correct_output_and_data():
-    print('Strictly checking output and data tape...')
+    print('Strictly checking output and data tape for 5*4...')
     if basetest.strict_test(list(sys.argv[1]), [5, 4], [20], [5, 4, 20]):
         print('Correct data tape :)')
     else:
